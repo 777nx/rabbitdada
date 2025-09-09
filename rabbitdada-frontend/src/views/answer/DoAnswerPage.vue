@@ -40,7 +40,6 @@
         </a-space>
       </div>
     </a-card>
-    {{ currentQuestion }}
   </div>
 </template>
 

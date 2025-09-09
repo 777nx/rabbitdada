@@ -4,6 +4,7 @@
       <a-row class="grid-demo" style="margin-bottom: 16px">
         <a-col flex="auto" class="content-wrapper">
           <h2>{{ data.resultName }}</h2>
+          <p>结果描述：{{ data.resultDesc }}</p>
           <p>结果 id：{{ data.resultId }}</p>
           <p>结果得分：{{ data.resultScore }}</p>
           <p>我的答案：{{ data.choices }}</p>
