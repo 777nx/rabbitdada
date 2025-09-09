@@ -50,4 +50,11 @@ public enum AppTypeEnum {
         return Arrays.stream(values()).map(item -> item.value).collect(Collectors.toList());
     }
 
+    public int getValue() {
+        return value;
+    }
+
+    public String getText() {
+        return text;
+    }
 }
