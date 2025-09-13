@@ -40,6 +40,8 @@ import { listAppVoByPageUsingPost } from "@/api/appController";
 const initSearchParams = {
   current: 1,
   pageSize: 12,
+  sortOrder: "descend",
+  sortField: "createTime",
 };
 
 const searchParams = ref<API.UserQueryRequest>({
@@ -90,8 +92,8 @@ watchEffect(() => {
 }
 
 .searchBar {
-  text-align: center;
   margin-bottom: 28px;
+  text-align: center;
 }
 
 .list-demo-action-layout .image-area {
